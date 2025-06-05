@@ -122,11 +122,12 @@ src/
 │   ├── vulnerability.rs # 敏感信息检测
 │   ├── report.rs        # 结果结构定义
 │   └── error.rs         # 错误处理
-├── config/              # 配置文件目录
-│   ├── api_dict.txt     # API路径字典
-│   ├── user-agents.txt  # User-Agent列表
-└──
+└── config/              # 配置文件目录
+    ├── api_dict.txt     # API路径字典
+    └── user-agents.txt  # User-Agent列表
 
+```rust
+```
 ### 扩展敏感信息检测
 
 要添加新的敏感信息检测规则，修改 `vulnerability.rs` 中的 `create_patterns` 函数：
