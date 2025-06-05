@@ -114,6 +114,7 @@ cargo build --release
 ```
 src/
 ├── main.rs              # 程序入口
+├── lib.rs
 ├── function/
 │   ├── mod.rs           # 模块声明
 │   ├── config.rs        # 配置处理
@@ -124,9 +125,6 @@ src/
 ├── config/              # 配置文件目录
 │   ├── api_dict.txt     # API路径字典
 │   ├── user-agents.txt  # User-Agent列表
-│   └── 403.txt          # 403状态码处理相关配置
-└── results/             # 结果输出目录
-```
 
 ### 扩展敏感信息检测
 
