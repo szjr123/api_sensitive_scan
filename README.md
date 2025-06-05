@@ -142,6 +142,16 @@ fn create_patterns() -> Vec<(String, Regex)> {
     ]
 }
 ```
+### 请求头信息添加修改
+自定义请求头，修改
+async fn comprehensive_scan(
+    client: Client,
+    config: &Config,
+    paths: Vec<String>,
+) -> Result<ComprehensiveScanReport, ScanError> {
+  //......
+  let scan_result = ......
+}
 
 ## 免责声明
 
